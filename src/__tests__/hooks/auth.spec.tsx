@@ -10,7 +10,7 @@ describe('Auth hook', () => {
   it('should be able to sign in', async () => {
     const apiResponse = {
       user: {
-        id: 'user123',
+        id: 'user-123',
         name: 'John Doe',
         email: 'johndoe@example.com.br',
       },
